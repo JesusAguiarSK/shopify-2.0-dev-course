@@ -2343,13 +2343,13 @@ input[type='checkbox'] {
 @media screen and (max-width: 989px) {
   .header__heading,
   .header__heading-link {
-    text-align: center;
+    text-align: end;
   }
 
   .header--mobile-left .header__heading,
   .header--mobile-left .header__heading-link {
     text-align: center;
-    justify-self: start;
+    justify-self: end;
   }
 
   .header--mobile-left {
@@ -2369,7 +2369,7 @@ input[type='checkbox'] {
 
   .header--top-center .header__heading-link,
   .header--top-center .header__heading {
-    justify-self: center;
+    justify-self: end;
     text-align: center;
   }
 }
