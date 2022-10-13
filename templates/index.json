@@ -1,6 +1,6 @@
 {
   "sections": {
-    "903950ad-d3f0-474b-90ee-bd74a22f4e1f": {
+    "892f2b14-459f-4c34-95e2-d01c1947b2e3": {
       "type": "hero",
       "settings": {
       }
@@ -222,7 +222,7 @@
     }
   },
   "order": [
-    "903950ad-d3f0-474b-90ee-bd74a22f4e1f",
+    "892f2b14-459f-4c34-95e2-d01c1947b2e3",
     "image_banner",
     "rich_text",
     "featured_collection",
