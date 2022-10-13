@@ -22,7 +22,8 @@
         "4df7664f-2236-4fb9-9126-4b59302e6d3c": {
           "type": "collection",
           "settings": {
-            "collection": "back-to-work"
+            "collection": "back-to-work",
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png"
           }
         }
       },
