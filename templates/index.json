@@ -23,7 +23,8 @@
           "type": "collection",
           "settings": {
             "collection": "back-to-work",
-            "image_bg": "shopify:\/\/shop_images\/hero-work.png"
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
           }
         }
       },
