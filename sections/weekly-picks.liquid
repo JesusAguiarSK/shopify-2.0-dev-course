@@ -7,10 +7,15 @@
         {% for product in section.settings.collection.products %}
             <div class="weekly-picks__item">
                 <a class="weekly-picks__item-link" href="{{ product.url }}">
+                    <div class="product-bubble bubble-- {% if product.tag contain "New" %} new {% elsif product.tag contain "Fave" %} fave {% elsif product.compage_at_price != blank %} sale {% endif %}">
+                        <span>
+                            
+                        </span>
+                    </div>
                     <div class="weekly-picks__img-wrapper">
                         <img src="{{ product.images[0].src | img_url: 'medium' }}" />
                     </div>
-                    <p class="weekly-picks__product-title" >{{ product.title }}</p>
+                    <p class="weekly-picks__product-title"> {{ product.title }}</p>
                     <div class="weekly-picks__price">
                         <span>
                             {{ product.price | money }}
