@@ -1,0 +1,37 @@
+<div>
+    Collection Grid
+</div>
+
+
+{% schema %}
+{
+    "name": "Collection grid",
+    "settings": [
+        {
+            "type": "text",
+            "id": "header",
+            "label": "Header"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "collection",
+            "imit": "4",
+            "name": "Collection",
+            "settings": [
+                {
+                   "type": "collection",
+                   "id":  "collection",
+                   "label": "collection"
+                }
+            ]
+        }
+
+    ],
+    "presets": "Collection grid" [
+        {
+            "name": "Collection grid",
+        }
+    ]
+}   
+{% endschema %}
