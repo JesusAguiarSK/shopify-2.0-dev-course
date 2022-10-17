@@ -55,11 +55,18 @@
       "settings": {
         "collection": ""
       }
+    },
+    "ee044ed9-adf6-4b6f-b720-b757b4dd2179": {
+      "type": "collection-grid",
+      "settings": {
+        "header": ""
+      }
     }
   },
   "order": [
     "892f2b14-459f-4c34-95e2-d01c1947b2e3",
     "video",
-    "9eabf720-39c9-4980-9f53-67545d814981"
+    "9eabf720-39c9-4980-9f53-67545d814981",
+    "ee044ed9-adf6-4b6f-b720-b757b4dd2179"
   ]
 }
