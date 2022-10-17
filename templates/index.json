@@ -62,25 +62,25 @@
         "d930607f-7031-4fa1-a757-d3efc08bc8b3": {
           "type": "collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "tops"
           }
         },
         "8572e1c2-28d7-4d98-9bd1-c15d5da9ee1a": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "bottoms"
           }
         },
         "6ced8549-48e7-4ad7-9df1-527d1956e93d": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "dresses"
           }
         },
         "8b5885a4-59ea-419d-81cc-30aac152be89": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "denim"
           }
         }
       },
