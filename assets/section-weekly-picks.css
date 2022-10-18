@@ -9,13 +9,13 @@
     color: rgb(var(--color-foreground));
 }
 
-.weekly-picks__products-ctn {
+.weekly-picks__product-ctn {
     display: flex;
     flex-flow: column;
 }
 
 @media screen and (min-width: 768px) {
-    .weekly-picks__products-ctn {
+    .weekly-picks__product-ctn {
         flex-flow: row;
         width: 768px;
         margin: 0 auto;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .weekly-picks__products-ctn {
+    .weekly-picks__product-ctn {
         width: 800px;
     }   
 }
