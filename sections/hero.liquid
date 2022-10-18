@@ -22,35 +22,35 @@
 
 {% schema %}
 {
-    "name":"Hero",
-    "blocks": [
+  "name": "Hero",
+  "blocks": [
+    {
+      "type": "collection",
+      "limit": 3,
+      "name": "Collection",
+      "settings": [
         {
-            "type": "collection",
-            "limit": 3,
-            "name": "Collection",
-            "settings": [
-                {
-                    "type": "collection",
-                    "id": "collection",
-                    "label": "Collection"
-                },
-                {
-                    "type": "image_picker",
-                    "id": "image_bg",
-                    "label": "Image Background"
-                },
-                {
-                    "type": "image_picker",
-                    "id": "image_hover",
-                    "label": "Image Hover"
-                }
-            ]
-        }
-    ],
-    "presets": [
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
         {
-            "name":"Hero"
+          "type": "image_picker",
+          "id": "image_bg",
+          "label": "Image Background"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_hover",
+          "label": "Image Hover"
         }
-    ]
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero"
+    }
+  ]
 }
 {% endschema %}

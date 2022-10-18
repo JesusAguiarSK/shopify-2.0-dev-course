@@ -16,33 +16,32 @@
 
 {% schema %}
 {
-    "name": "Collection grid",
-    "settings": [
+  "name": "Collection grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Header"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "limit": 4,
+      "name": "Collection",
+      "settings": [
         {
-            "type": "text",
-            "id": "header",
-            "label": "Header"
+          "type": "collection",
+          "id": "collection",
+          "label": "collection"
         }
-    ],
-    "blocks": [
-        {
-            "type": "collection",
-            "limit": 4,
-            "name": "Collection",
-            "settings": [
-                {
-                   "type": "collection",
-                   "id":  "collection",
-                   "label": "collection"
-                }
-            ]
-        }
-
-    ],
-    "presets": [
-        {
-            "name": "Collection grid"
-        }
-    ]
-}   
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection grid"
+    }
+  ]
+}
 {% endschema %}

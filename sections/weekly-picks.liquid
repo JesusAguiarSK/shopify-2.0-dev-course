@@ -18,7 +18,7 @@
                         </span>
                     </div>
                     <div class="weekly-picks__img-wrapper">
-                        <img src="{{ product.images[0].src | img_url: 'medium' }}" />
+                        <img src="{{ product.images[0].src | image_url: width: 240, height: 240 }}" />
                     </div>
                     <p class="weekly-picks__product-title"> {{ product.title }}</p>
                     <div class="weekly-picks__price">
@@ -34,18 +34,18 @@
 
 {% schema %}
 {
-    "name": "Weekly Picks",
-    "settings": [
-        {
-            "type": "collection",
-            "id": "collection",
-            "label": "Collection"
-        }
-    ],
-    "presets": [
-        {
-            "name": "Weekly Picks"
-        }
-    ]
+  "name": "Weekly Picks",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Weekly Picks"
+    }
+  ]
 }
 {% endschema %}
