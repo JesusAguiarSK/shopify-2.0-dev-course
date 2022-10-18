@@ -2150,7 +2150,7 @@ input[type='checkbox'] {
   cursor: initial;
 }
 
-/* component-cart-count-bubble */
+/* component-cart-count-  */
 .cart-count-bubble:empty {
   display: none;
 }
