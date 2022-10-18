@@ -6,7 +6,7 @@
         {% for block in settings.blocks %}
             <a class="collection-grid__grid-item" href="{{ block.settings.collection.url }}">
                 <div class="collection-grid__img-ctn">
-                    <img src="{{ block.settings.collection.image | img_url: "Large" }}"/>
+                    <img src="{{ block.settings.collection.image | image_url: "Large" }}" width="100" height="200" loading="lazy"/>
                 </div>
                 <h3 class="collection-grid__title">{{ block.settings.collection.title }}</h3>
             </a>
