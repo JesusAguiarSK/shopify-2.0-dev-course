@@ -37,7 +37,7 @@
 
 .hero-collections__card-ctn {
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     position: relative;
 }
 
